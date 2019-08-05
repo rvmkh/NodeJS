@@ -1,0 +1,9 @@
+
+launch:
+nodemon ./app.js
+
+access:
+http://localhost:3001/dhcpRequest/
+
+This is a real script example ( still under construction ) for rendering of DHCP requests in the IP network.
+

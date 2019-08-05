@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>dhcpRequest EVDO</title>
+      <meta charset="utf-8" http-equiv="refresh" content="600" />
+      <style>
+        #data{
+          width: 70%
+          padding: 10px;
+          margin: auto;
+        }
+        #reqHead {
+          background: #D8BFD8;
+          position: sticky;
+          top: 0;
+          width: 70%
+          padding: 10px;
+          margin: auto;
+          }
+        body { background: #c0c0c0; }
+      </style>
+   </head>
+   <body>
+      <h1>AP (Voice dhcp request)</h1>
+      <div id="root">
+        <div id="menu">
+          <nav>
+            <ul>
+              <li><a href="/dhcpRequest">Home</a>
+            </ul>
+          </nav>
+        </div>
+        <div id="reqHead" style="width: 70%">
+          <p><b>Time / MAC / Request Type / IP</b></p>
+        </div>
+
+        {{#each test}}
+          <div id="data" style="background: {{this.reqColor}}; width: 70%">
+            {{this.time}} / {{this.mac}} / {{this.reqType}} / {{this.ip}}
+          </div>
+        {{/each}}
+
+      </div>
+   </body>
+</html>

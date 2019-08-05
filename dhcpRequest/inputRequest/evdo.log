@@ -1,0 +1,1059 @@
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell20-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell20-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell20-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell20-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell20-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell20-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell12-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell12-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell12-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell13-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell13-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell13-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+
+
+12:09:26.354384 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum 66f2!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell573-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+
+
+12:08:44.291160 IP (tos 0xc0, ttl 62, id 1674, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:45.145334 IP (tos 0xc0, ttl 62, id 1710, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Offer
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:45.145614 IP (tos 0xc0, ttl 62, id 40184, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Request
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:52.283416 IP (tos 0xc0, ttl 62, id 40402, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:52.290580 IP (tos 0xc0, ttl 62, id 1875, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.282031 IP (tos 0xc0, ttl 62, id 40835, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.289497 IP (tos 0xc0, ttl 62, id 2245, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:17.142640 IP (tos 0xc0, ttl 62, id 2518, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:17.142882 IP (tos 0xc0, ttl 62, id 41148, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142270 IP (tos 0xc0, ttl 62, id 2615, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142667 IP (tos 0xc0, ttl 62, id 41264, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:26.353967 IP (tos 0x0, ttl 61, id 1101, offset 0, flags [none], proto UDP (17), length 576)
+    172.24.51.45.bootpc > vciphoc.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:5a:c3:cb (oui Unknown), length 548, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Request
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+12:09:26.354216 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6c1!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: vciphoc
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354310 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6e4!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354384 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum 66f2!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:29.141583 IP (tos 0xc0, ttl 62, id 2809, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+
+12:08:44.291160 IP (tos 0xc0, ttl 62, id 1674, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:45.145334 IP (tos 0xc0, ttl 62, id 1710, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:45.145614 IP (tos 0xc0, ttl 62, id 40184, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:52.283416 IP (tos 0xc0, ttl 62, id 40402, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:52.290580 IP (tos 0xc0, ttl 62, id 1875, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.282031 IP (tos 0xc0, ttl 62, id 40835, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.289497 IP (tos 0xc0, ttl 62, id 2245, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:17.142640 IP (tos 0xc0, ttl 62, id 2518, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:17.142882 IP (tos 0xc0, ttl 62, id 41148, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142270 IP (tos 0xc0, ttl 62, id 2615, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142667 IP (tos 0xc0, ttl 62, id 41264, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:26.353967 IP (tos 0x0, ttl 61, id 1101, offset 0, flags [none], proto UDP (17), length 576)
+    172.24.51.45.bootpc > vciphoc.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:5a:c3:cb (oui Unknown), length 548, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Request
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+12:09:26.354216 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6c1!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: vciphoc
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354310 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6e4!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354384 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum 66f2!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:29.141583 IP (tos 0xc0, ttl 62, id 2809, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+12:08:44.291160 IP (tos 0xc0, ttl 62, id 1674, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:45.145334 IP (tos 0xc0, ttl 62, id 1710, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:45.145614 IP (tos 0xc0, ttl 62, id 40184, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:52.283416 IP (tos 0xc0, ttl 62, id 40402, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:52.290580 IP (tos 0xc0, ttl 62, id 1875, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.282031 IP (tos 0xc0, ttl 62, id 40835, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.289497 IP (tos 0xc0, ttl 62, id 2245, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:17.142640 IP (tos 0xc0, ttl 62, id 2518, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:17.142882 IP (tos 0xc0, ttl 62, id 41148, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142270 IP (tos 0xc0, ttl 62, id 2615, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142667 IP (tos 0xc0, ttl 62, id 41264, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:26.353967 IP (tos 0x0, ttl 61, id 1101, offset 0, flags [none], proto UDP (17), length 576)
+    172.24.51.45.bootpc > vciphoc.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:5a:c3:cb (oui Unknown), length 548, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Request
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+12:09:26.354216 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6c1!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: vciphoc
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354310 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6e4!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354384 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum 66f2!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:29.141583 IP (tos 0xc0, ttl 62, id 2809, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+12:08:44.291160 IP (tos 0xc0, ttl 62, id 1674, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:45.145334 IP (tos 0xc0, ttl 62, id 1710, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:45.145614 IP (tos 0xc0, ttl 62, id 40184, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:52.283416 IP (tos 0xc0, ttl 62, id 40402, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:52.290580 IP (tos 0xc0, ttl 62, id 1875, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.282031 IP (tos 0xc0, ttl 62, id 40835, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.289497 IP (tos 0xc0, ttl 62, id 2245, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:17.142640 IP (tos 0xc0, ttl 62, id 2518, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:17.142882 IP (tos 0xc0, ttl 62, id 41148, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142270 IP (tos 0xc0, ttl 62, id 2615, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142667 IP (tos 0xc0, ttl 62, id 41264, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:26.353967 IP (tos 0x0, ttl 61, id 1101, offset 0, flags [none], proto UDP (17), length 576)
+    172.24.51.45.bootpc > vciphoc.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:5a:c3:cb (oui Unknown), length 548, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Request
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+12:09:26.354216 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6c1!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: vciphoc
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354310 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6e4!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354384 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum 66f2!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:29.141583 IP (tos 0xc0, ttl 62, id 2809, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+12:08:44.291160 IP (tos 0xc0, ttl 62, id 1674, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:45.145334 IP (tos 0xc0, ttl 62, id 1710, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:45.145614 IP (tos 0xc0, ttl 62, id 40184, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:08:52.283416 IP (tos 0xc0, ttl 62, id 40402, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:08:52.290580 IP (tos 0xc0, ttl 62, id 1875, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.282031 IP (tos 0xc0, ttl 62, id 40835, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.253
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:07.289497 IP (tos 0xc0, ttl 62, id 2245, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.10.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:58:b7:8e (oui Unknown), length 548, xid 0x2aba6429, secs 27, Flags [none] (0x0000)
+	  Gateway-IP 172.27.10.252
+	  Client-Ethernet-Address 00:60:1d:58:b7:8e (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:64:27
+12:09:17.142640 IP (tos 0xc0, ttl 62, id 2518, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:17.142882 IP (tos 0xc0, ttl 62, id 41148, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142270 IP (tos 0xc0, ttl 62, id 2615, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:21.142667 IP (tos 0xc0, ttl 62, id 41264, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 4, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.253
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+12:09:26.353967 IP (tos 0x0, ttl 61, id 1101, offset 0, flags [none], proto UDP (17), length 576)
+    172.24.51.45.bootpc > vciphoc.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:5a:c3:cb (oui Unknown), length 548, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Request
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+12:09:26.354216 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6c1!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: vciphoc
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354310 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum e6e4!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:26.354384 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum 66f2!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell759-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+12:09:29.141583 IP (tos 0xc0, ttl 62, id 2809, offset 0, flags [none], proto UDP (17), length 576)
+    172.27.150.252.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 00:60:1d:24:e9:0c (oui Unknown), length 548, xid 0xf96f6bed, secs 12, Flags [none] (0x0000)
+	  Gateway-IP 172.27.150.252
+	  Client-Ethernet-Address 00:60:1d:24:e9:0c (oui Unknown)
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: Discover
+	    MSZ Option 57, length 2: 576
+	    Lease-Time Option 51, length 4: 86400
+	    Vendor-Class Option 60, length 4: "urc1"
+	    Client-ID Option 61, length 7: ether 00:60:1d:63:fe:24
+
+
+12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell1164-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng
+
+
+12:09:26.354384 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 379)
+    flx1108.bootps > 172.24.51.45.bootpc: [bad udp cksum 66f2!] BOOTP/DHCP, Reply, length 351, xid 0x1e7aee1b, Flags [none] (0x0000)
+	  Client-IP 172.24.51.45
+	  Your-IP 172.24.51.45
+	  Server-IP flx1108
+	  Client-Ethernet-Address 00:60:1d:5a:c3:cb (oui Unknown)
+	  sname "flx1108-rn"
+	  Vendor-rfc1048 Extensions
+	    Magic Cookie 0x63825363
+	    DHCP-Message Option 53, length 1: ACK
+	    Server-ID Option 54, length 4: flx1108
+	    Lease-Time Option 51, length 4: 86400
+	    Subnet-Mask Option 1, length 4: 255.255.255.0
+	    Hostname Option 12, length 10: "rcell573-1"
+	    RN Option 58, length 4: 43200
+	    RB Option 59, length 4: 75600
+	    Client-ID Option 61, length 7: ether 00:1d:4c:00:ac:01
+	    Vendor-Option Option 43, length 54: 203.1.26.204.4.172.24.51.254.205.4.172.17.0.101.206.4.0.0.2.247.9.4.172.24.51.45.214.1.1.215.1.4.217.4.172.17.0.101.218.4.172.17.0.101.202.1.24.219.4.0.0.30.220
+
+      12:26:16.117028 IP (tos 0xc0, ttl 62, id 63978, offset 0, flags [none], proto UDP (17), length 576) 172.28.8.253.bootps > flx1108.bootps: [udp sum ok] BOOTP/DHCP, Request from 90:67:b5:08:7f:24 (oui Unknown), length 548, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: Request MSZ Option 57, length 2: 576 Lease-Time Option 51, length 4: 86400 Vendor-Class Option 60, length 4: "urc1" Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 12:26:16.117170 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d70!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: vciphoc Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell12-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117245 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 1d93!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell12-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:16.117317 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 377) flx1108.bootps > 172.28.8.253.bootps: [bad udp cksum 9da0!] BOOTP/DHCP, Reply, length 349, xid 0x3b6c6811, Flags [none] (0x0000) Client-IP 172.28.8.81 Your-IP 172.28.8.81 Server-IP flx1108 Gateway-IP 172.28.8.253 Client-Ethernet-Address 90:67:b5:08:7f:24 (oui Unknown) sname "flx1108-rn" Vendor-rfc1048 Extensions Magic Cookie 0x63825363 DHCP-Message Option 53, length 1: ACK Server-ID Option 54, length 4: flx1108 Lease-Time Option 51, length 4: 86400 Subnet-Mask Option 1, length 4: 255.255.255.0 Hostname Option 12, length 11: "rcell12-1" RN Option 58, length 4: 43200 RB Option 59, length 4: 75600 Client-ID Option 61, length 7: ether 90:67:b5:08:7f:25 Vendor-Option Option 43, length 51: 203.1.26.204.4.172.28.8.254.205.4.172.17.8.229.206.4.0.0.4.140.9.4.172.28.8.81.215.1.4.217.4.172.17.8.229.218.4.172.17.8.229.202.1.24.219.4.0.0.30.220 12:26:29.669713 IP (tos 0xc0, ttl 62, id 38311, offset 0, flags [none], proto UDP (17), leng

@@ -1,0 +1,2185 @@
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x37 0xCD 0x21 (unprintable)
+DHCP: Relay agent address (giaddr) = 172.25.7.253
+
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 0x00 0x1D 0x4C 0x00 0xA0 0xE7 (unprintable)
+DHCP: Relay agent address (giaddr) = 172.25.7.252
+
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 0x00 0x1D 0x4C 0x00 0xA0 0xE7 (unprintable)
+DHCP: Relay agent address (giaddr) = 172.25.7.253
+
+DHCP: Message type = DHCPREQUEST
+DHCP: Requested IP Address = 172.25.7.36
+DHCP: Client Identifier =       0x01 0x00 0x1D 0x4C 0x00 0xA0 0xE7 (unprintable)
+DHCP: Relay agent address (giaddr) = 172.25.7.252
+
+DHCP: Message type = DHCPREQUEST
+DHCP: Requested IP Address = 172.25.7.36
+DHCP: Client Identifier =       0x01 0x00 0x1D 0x4C 0x00 0xA0 0xE7 (unprintable)
+DHCP: Relay agent address (giaddr) = 172.25.1.253
+
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x37 0xCD 0x21 (unprintable)
+DHCP: Relay agent address (giaddr) = 172.25.1.252
+DHCP: Message type = DHCPDISCOVER
+
+
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 43 arrived at 11:00:17.43234
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5677
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9603
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 44 arrived at 11:00:17.43235
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5677
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9603
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 43 arrived at 11:00:17.43234
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5677
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9603
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 44 arrived at 11:00:17.43235
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5677
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9603
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 45 arrived at 11:00:25.56783
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 2426
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 330e
+IP:   Source address = 172.25.1.253, 172.25.1.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 8687 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x8aab353d
+DHCP: Time since boot = 26 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.25.1.253
+DHCP: Client hardware address (chaddr) = 00:60:1D:46:57:AF
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x37 0xCD 0x21 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 46 arrived at 11:00:25.56868
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 41123
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9be5
+IP:   Source address = 172.25.1.252, 172.25.1.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 8689 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x8aab353d
+DHCP: Time since boot = 26 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.25.1.252
+DHCP: Client hardware address (chaddr) = 00:60:1D:46:57:AF
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x37 0xCD 0x21 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 47 arrived at 11:00:35.93197
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61048
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 3a13
+IP:   Source address = 172.21.21.253, 172.21.21.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F12 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.253
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 48 arrived at 11:00:35.93309
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61127
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 39c5
+IP:   Source address = 172.21.21.252, 172.21.21.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F14 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.252
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 49 arrived at 11:00:39.00871
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61340
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 38ef
+IP:   Source address = 172.21.21.253, 172.21.21.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F0F 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 3 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.253
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 50 arrived at 11:00:39.00984
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61483
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 3861
+IP:   Source address = 172.21.21.252, 172.21.21.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F11 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 3 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.252
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 51 arrived at 11:00:41.77076
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61731
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 1669
+IP:   Source address = 172.21.54.252, 172.21.54.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = EC67 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x35de3478
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.54.252
+DHCP: Client hardware address (chaddr) = 90:67:B5:08:84:B2
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x63 0xFD 0xFD (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 52 arrived at 11:00:41.77191
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61593
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 16f2
+IP:   Source address = 172.21.54.253, 172.21.54.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = EC65 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x35de3478
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.54.253
+DHCP: Client hardware address (chaddr) = 90:67:B5:08:84:B2
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x63 0xFD 0xFD (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 53 arrived at 11:00:43.02831
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3f, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 43309
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 0000
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = CDBA 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 54 arrived at 11:00:43.02836
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5678
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9602
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 55 arrived at 11:00:43.02836
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5678
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9602
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 56 arrived at 11:00:46.18790
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 62047
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 362c
+IP:   Source address = 172.21.21.253, 172.21.21.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F08 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 10 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.253
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 57 arrived at 11:00:46.18903
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 62419
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 34b9
+IP:   Source address = 172.21.21.252, 172.21.21.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F0A 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 10 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.252
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 58 arrived at 11:00:46.79007
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 62441
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 13a3
+IP:   Source address = 172.21.54.252, 172.21.54.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 748F 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x35de3478
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.54.252
+DHCP: Client hardware address (chaddr) = 90:67:B5:08:84:B2
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPREQUEST
+DHCP: Requested IP Address = 172.21.54.8
+DHCP: DHCP Server Identifier = 10.78.132.1
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x63 0xFD 0xFD (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 59 arrived at 11:00:46.79162
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 62062
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 151d
+IP:   Source address = 172.21.54.253, 172.21.54.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 748D 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x35de3478
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 43 arrived at 11:00:17.43234
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5677
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9603
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 44 arrived at 11:00:17.43235
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5677
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9603
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 45 arrived at 11:00:25.56783
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 2426
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 330e
+IP:   Source address = 172.25.1.253, 172.25.1.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 8687 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x8aab353d
+DHCP: Time since boot = 26 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.25.1.253
+DHCP: Client hardware address (chaddr) = 00:60:1D:46:57:AF
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x37 0xCD 0x21 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 46 arrived at 11:00:25.56868
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 41123
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9be5
+IP:   Source address = 172.25.1.252, 172.25.1.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 8689 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x8aab353d
+DHCP: Time since boot = 26 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.25.1.252
+DHCP: Client hardware address (chaddr) = 00:60:1D:46:57:AF
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x37 0xCD 0x21 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 47 arrived at 11:00:35.93197
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61048
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 3a13
+IP:   Source address = 172.21.21.253, 172.21.21.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F12 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.253
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 48 arrived at 11:00:35.93309
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61127
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 39c5
+IP:   Source address = 172.21.21.252, 172.21.21.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F14 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.252
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 49 arrived at 11:00:39.00871
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61340
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 38ef
+IP:   Source address = 172.21.21.253, 172.21.21.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F0F 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 3 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.253
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 50 arrived at 11:00:39.00984
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61483
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 3861
+IP:   Source address = 172.21.21.252, 172.21.21.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F11 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 3 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.252
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 51 arrived at 11:00:41.77076
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61731
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 1669
+IP:   Source address = 172.21.54.252, 172.21.54.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = EC67 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x35de3478
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.54.252
+DHCP: Client hardware address (chaddr) = 90:67:B5:08:84:B2
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x63 0xFD 0xFD (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 52 arrived at 11:00:41.77191
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 61593
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 16f2
+IP:   Source address = 172.21.54.253, 172.21.54.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = EC65 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x35de3478
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.54.253
+DHCP: Client hardware address (chaddr) = 90:67:B5:08:84:B2
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x63 0xFD 0xFD (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 53 arrived at 11:00:43.02831
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3f, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 43309
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 0000
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = CDBA 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 54 arrived at 11:00:43.02836
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5678
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9602
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 55 arrived at 11:00:43.02836
+ETHER:  Packet size = 342 bytes
+ETHER:  Destination = ff:ff:ff:ff:ff:ff, (broadcast)
+ETHER:  Source      = 0:21:28:43:d2:3e, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 328 bytes
+IP:   Identification = 5678
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 1 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 9602
+IP:   Source address = 172.16.32.101, ap101
+IP:   Destination address = 255.255.255.255, BROADCAST
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 308 
+UDP:  Checksum = 2A82 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x7be9c37c
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.16.32.101
+DHCP: Client hardware address (chaddr) = 02:02:02:02:02:02
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Client Identifier =       0x01 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 56 arrived at 11:00:46.18790
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 62047
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 362c
+IP:   Source address = 172.21.21.253, 172.21.21.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F08 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 10 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.253
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 57 arrived at 11:00:46.18903
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 62419
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 34b9
+IP:   Source address = 172.21.21.252, 172.21.21.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 7F0A 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x34ff348c
+DHCP: Time since boot = 10 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.21.252
+DHCP: Client hardware address (chaddr) = 00:60:1D:58:AD:49
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPDISCOVER
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x58 0xAD 0x48 (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 58 arrived at 11:00:46.79007
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 62441
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 13a3
+IP:   Source address = 172.21.54.252, 172.21.54.252
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 748F 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x35de3478
+DHCP: Time since boot = 0 seconds
+DHCP: Flags = 0x0000
+DHCP: Client address (ciaddr) = 0.0.0.0
+DHCP: Your client address (yiaddr) = 0.0.0.0
+DHCP: Next server address (siaddr) = 0.0.0.0
+DHCP: Relay agent address (giaddr) = 172.21.54.252
+DHCP: Client hardware address (chaddr) = 90:67:B5:08:84:B2
+DHCP: 
+DHCP: ----- (Options) field options -----
+DHCP: 
+DHCP: Message type = DHCPREQUEST
+DHCP: Requested IP Address = 172.21.54.8
+DHCP: DHCP Server Identifier = 10.78.132.1
+DHCP: Maximum DHCP Message Size = 576 bytes
+DHCP: IP Address Lease Time = 86400 seconds
+DHCP: Client Class Identifier = "urc1"
+DHCP: Client Identifier =       0x01 0x00 0x60 0x1D 0x63 0xFD 0xFD (unprintable)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 59 arrived at 11:00:46.79162
+ETHER:  Packet size = 590 bytes
+ETHER:  Destination = 0:21:28:43:d2:3f, 
+ETHER:  Source      = 6c:be:e9:20:e4:76, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0xc0
+IP:         xxx. .... = 6 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 576 bytes
+IP:   Identification = 62062
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 63 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = 151d
+IP:   Source address = 172.21.54.253, 172.21.54.253
+IP:   Destination address = 10.78.132.1, 10.78.132.1
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 67
+UDP:  Destination port = 67 (BOOTPS)
+UDP:  Length = 556 
+UDP:  Checksum = 748D 
+UDP:  
+DHCP: ----- Dynamic Host Configuration Protocol -----
+DHCP: 
+DHCP: Hardware address type (htype) =  1 (Ethernet (10Mb))
+DHCP: Hardware address length (hlen) = 6 octets
+DHCP: Relay agent hops = 0
+DHCP: Transaction ID = 0x35de3478
+
+
+

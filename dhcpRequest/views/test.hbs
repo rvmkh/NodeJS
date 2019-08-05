@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>dhcpRequest EVDO</title>
+      <meta charset="utf-8" http-equiv="refresh" content="600" />
+   </head>
+   <body>
+      <h1>TEST hbs</h1>
+      <div id="root">
+        <div id="menu">
+          {{> menu}}
+        </div>
+
+        {{#each test}}
+        <div id="test">
+          <!-- {{test}} -->
+          {{this.time}} / {{this.mac}} / {{this.reqType}} / {{this.ip}}
+        </div>
+        {{/each}}
+
+
+
+      </div>
+   </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RSSI</title>
+    <meta charset="utf-8" http-equiv="refresh" />
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+         var bts = '';
+         var rssi = document.getElementById('rssidata').innerText;
+         var rssiArr = rssi.split('],[');
+         var renderRssi = [['Time', 'Alfa [dBm]', 'Betta [dBm]', 'Gamma [dBm]']];
+
+         for (var i=0; i<rssiArr.length; i++) {
+           var rssiPtrn = /^\[{0,2}\s*(-\d{1,3}\.\d)\s*,\s*(-\d{1,3}\.\d)\s*,\s*(-\d{1,3}\.\d)\s*$/;
+           var clnm = rssiPtrn.exec(rssiArr[i]);
+           if (clnm) {
+             var alfa = clnm[1];
+             var betta = clnm[2];
+             var gamma = clnm[3];
+             console.log(`Alfa=${alfa} Betta=${betta} Gamma=${gamma}`);
+           }
+           // var btsPtrn = /^(\d{1,4})\s*\]\s*\]\s*$/;
+           // var bts = rssiPtrn.exec(rssiArr[i]);
+           // if (bts) {
+           //   console.log(bts);
+           // }
+
+           ///// renderRssi = [['Time', 'Alfa [dBm]', 'Betta [dBm]', 'Gamma [dBm]'],['00:00', alfa, betta, gamma]];
+           renderRssi.push(['00:00', alfa, betta, gamma]);
+
+         }
+         console.log(renderRssi);
+         bts = '305'; // should be changed to real BTS from array
+
+
+        ///// Example of Arr for  Chart ////
+        renderRssi = [
+          ['Time', 'Alfa [dBm]', 'Betta [dBm]', 'Gamma [dBm]'],
+          ['00:00',-100.1,-90.2 ,-80.3 ],
+          ['04:00',-120.0,-110.0,-100.0],
+          ['08:00',-50.5 ,-60.5 ,-40.5 ],
+          ['12:00',-120.0,-120.0,-120.0],
+          ['16:00',-100.1,-90.2 ,-80.3 ],
+          ['20:00',-120.0,-110.0,-100.0],
+          ['23:59',-50.5 ,-60.5 ,-40.5 ],
+        ];
+
+
+         var data = google.visualization.arrayToDataTable(renderRssi);
+         var options = {
+           chart: {
+             title: 'RSSI for BTS ' + bts,
+             subtitle: 'Alfa, Betta, Gamma',
+           }
+         };
+         var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+         chart.draw(data, google.charts.Bar.convertOptions(options));
+       }
+
+    </script>
+  </head>
+  <body>
+    <div id='root'>
+      <br />
+      <form method="post">
+        BTS: <input type="number" name="bts" />
+        <button type="submit">RSSI</button>
+        <br /><br />
+      </form>
+      <div hidden="true" id="rssidata">{{printData}}</div>
+      <!-- <div id="rssidata">{{printData}}</div> -->
+      <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+    </div>
+  </body>
+</html>

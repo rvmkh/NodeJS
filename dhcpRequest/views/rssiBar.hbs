@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RSSI</title>
+    <meta charset="utf-8" http-equiv="refresh" />
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var rssi = document.getElementById('rssidata').innerText;               // read rssi from hidden div
+
+        // Strong format for bts.log files
+        // "[[-120.0,-120.0,-120.0],[-120.0,-120.0,-120.0],[-120.0,-120.0,-120.0],[-120.0,-120.0,-120.0],3999]\n"
+        // *** get rssiArr from app.js and destructure it *** //
+
+        var alfa1clnm = `${rssi[3]}${rssi[4]}${rssi[5]}${rssi[6]}${rssi[7]}${rssi[8]}`;
+        var betta1clnm = `${rssi[10]}${rssi[11]}${rssi[12]}${rssi[13]}${rssi[14]}${rssi[15]}`;
+        var gamma1clnm = `${rssi[17]}${rssi[18]}${rssi[19]}${rssi[20]}${rssi[21]}${rssi[22]}`;
+
+        var alfa2clnm = `${rssi[26]}${rssi[27]}${rssi[28]}${rssi[29]}${rssi[30]}${rssi[31]}`;
+        var betta2clnm = `${rssi[33]}${rssi[34]}${rssi[35]}${rssi[36]}${rssi[37]}${rssi[38]}`;
+        var gamma2clnm = `${rssi[40]}${rssi[41]}${rssi[42]}${rssi[43]}${rssi[44]}${rssi[45]}`;
+
+        var alfa3clnm = `${rssi[49]}${rssi[50]}${rssi[51]}${rssi[52]}${rssi[53]}${rssi[54]}`;
+        var betta3clnm = `${rssi[56]}${rssi[57]}${rssi[58]}${rssi[59]}${rssi[60]}${rssi[61]}`;
+        var gamma3clnm = `${rssi[63]}${rssi[64]}${rssi[65]}${rssi[66]}${rssi[67]}${rssi[68]}`;
+
+        var alfa4clnm = `${rssi[72]}${rssi[73]}${rssi[74]}${rssi[75]}${rssi[76]}${rssi[77]}`;
+        var betta4clnm = `${rssi[79]}${rssi[80]}${rssi[81]}${rssi[82]}${rssi[83]}${rssi[84]}`;
+        var gamma4clnm = `${rssi[86]}${rssi[87]}${rssi[88]}${rssi[89]}${rssi[90]}${rssi[91]}`;
+
+        var bts = `${rssi[94]}${rssi[95]}${rssi[96]}${rssi[97]}`;
+
+        var rssiArr = [
+          ["Time","Alfa [dBm]","Betta [dBm]","Gamma [dBm]"],
+          ["00:00", alfa1clnm, betta1clnm, gamma1clnm],
+          ["06:00", alfa2clnm, betta2clnm, gamma2clnm],
+          ["12:00", alfa3clnm, betta3clnm, gamma3clnm],
+          ["18:00", alfa4clnm, betta4clnm, gamma4clnm]
+        ];
+        // draw rssi
+        var data = google.visualization.arrayToDataTable(rssiArr);
+        var options = {
+          chart: {
+            title: 'RSSI for BTS ' + bts,
+            subtitle: 'Alfa, Betta, Gamma',
+          }
+        };
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  </head>
+  <body>
+    <div id='root'>
+      <br />
+      <form method="post">
+        BTS: <input type="number" name="bts" />
+        <button type="submit">RSSI</button>
+        <br /><br />
+      </form>
+      <div hidden="true" id="rssidata">{{printData}}</div>                      <!-- pass rssi data from app.js to hbs throw hidden div :) -->
+      <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+    </div>
+  </body>
+</html>
